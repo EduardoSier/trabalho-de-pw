@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #0084ff;
+}
+main{
+    margin-top: 30vh;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    
+}
+
+.formulario{
+    height:30px;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom:20px;
+    border: 2px solid white;
+    background: #66c5f1;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+#btn-login{
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 50px;
+    color:#0084ff;
+    background-color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    height:30px;
+
+}
+#login{
+    background: #66c5f1;
+    border-radius: 0 20px 20px 0;
+    width: 27%;
+    box-shadow: 21px 12px 39px 15px rgba(0,0,0,0.71);
+-webkit-box-shadow: 21px 12px 39px 15px rgba(0,0,0,0.71);
+-moz-box-shadow: 21px 12px 39px 15px rgba(0,0,0,0.71);
+}
+#login-cabecalho{
+    margin-top: 100px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+}
+
+#login-foto{
+    background-size: 100% 100%;
+    height: 49vh;
+    border-radius: 20px 0 0 20px;
+    width:27%;
+    box-shadow: 1px 5px 39px 15px rgba(0,0,0,0.71);
+-webkit-box-shadow: 1px 5px 39px 15px rgba(0,0,0,0.71);
+-moz-box-shadow: 1px 5px 39px 15px rgba(0,0,0,0.71);
+
+}
+
+#imagem{
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+#sub-foto{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom:30px;
+}
+
+p{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin-left:50px;
+    margin-right: 50px ;
+    margin-bottom:30px;
+}
+
+#bnt-foto{
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 50px;
+    color:white;
+    background-color: #0084ff;
+    cursor: pointer;
+    border: 2px solid #0084ff;;
+    height:30px;
+}
+
+
